@@ -15,7 +15,7 @@ The function mel_coeff_output takes 6 arguments:
 In the example reported in Mel_coeff, we have a sine waveform of length 16000, oscillating at 10 Hz and with sampling frequency of 16000 Hz. The number of coefficients chosen is 13, the WindowLength is 400 samples, the OverlapLength is 320 and the boolean variable is set to true => the Log(Energy) of the signal will be calculated and saved in the output matrix "matrix_out". The "matrix_out" will have a final dimension of 196 x 14, where the first column represents the Log(Energy) of the signal and the remaining columns the Mel Frequency Cepstral Coefficients.
 
 int length_sine = 16000;
-        std::vector<double> audio_i(length_sine);
+std::vector<double> audio_i(length_sine);
         for (int kk = 0; kk < length_sine; kk++)
         {
 
