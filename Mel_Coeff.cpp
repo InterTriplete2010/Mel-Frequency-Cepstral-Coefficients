@@ -77,25 +77,25 @@ int main()
 /*
 std::ofstream file;
 file.open("Mel_Coeff.txt");
-std::vector<double> audio_o(36);
+std::vector<double> audio_o(matrix_out.size());
 
-for (int ll = 0; ll < vect_out[0].size(); ll++)
+for (int ll = 0; ll < matrix_out[0].size(); ll++)
 {
 
-	for (int kk = 0; kk < vect_out.size(); kk++)
-	{
-	
-	audio_o.at(kk) = vect_out[kk][ll];
+        for (int kk = 0; kk < matrix_out.size(); kk++)
+        {
 
-	file << audio_o.at(kk) << "\t";
+        audio_o.at(kk) = matrix_out[kk][ll];
 
-	}
+        file << audio_o.at(kk) << "\t";
 
-	file << "\n";
+        }
+
+        file << "\n";
 
 }
         file.close();
-*/
 
+*/
 }
 
