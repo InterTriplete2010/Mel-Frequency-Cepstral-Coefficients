@@ -7,7 +7,6 @@
 #include <math.h>
 #include <numeric>
 #include <algorithm>
-#include<iostream>
 #include<fstream>
 #include "Mel_Coeff.h"
 
