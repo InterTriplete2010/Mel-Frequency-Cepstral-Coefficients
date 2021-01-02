@@ -36,3 +36,5 @@ In the example reported in Mel_coeff, we have a sine waveform of length 16000, o
 
 Please, keep in mind that this code needs the library Armadillo to be compiled: http://arma.sourceforge.net/docs.html. 
 You can compile it in Linux by typing the following command line: g++ -ggdb Mel_Coeff.cpp Mel_Coeff_H.o -larmadillo -o Mel_exe
+
+If you have any question and/or want to report bugs, please e-mail me (Ale) at: pressalex@hotmail.com
