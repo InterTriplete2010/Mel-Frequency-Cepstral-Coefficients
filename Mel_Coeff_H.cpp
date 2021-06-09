@@ -170,7 +170,7 @@ std::vector<double> Mel_coeff::hamm_w(int length_w)
 	for (int kk = 0; kk < length_w; kk++)
 	{
 
-		hamm_window[kk] = coeff_I - coeff_II * cos(2 * PI * kk / length_w);
+		hamm_window[kk] = coeff_I - coeff_II * cos(2 * PI * kk / (length_w - 1));
 
 	}
 
